@@ -1,4 +1,4 @@
-callout {
+.callout {
     width: 400px;
     margin: 10px;
     border: 1px solid rgba(0,0,0,.1);
@@ -7,7 +7,7 @@ callout {
     color: #fff;
 }
 
-callout img {
+.callout img {
 	float: right;
     margin: 0 0 10px 15px;
     border: 1px solid #000;
