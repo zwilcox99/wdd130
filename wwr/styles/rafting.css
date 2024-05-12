@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Sedan+SC&display=swap');
+
+:root {
+    --primary-color: #000001;
+    --secondary-color: #9DC3C2;
+    --accent1-color: #D0EFB1;
+    --accent2-color: #4D7298;
+
+    --heading-font: 'Kaushan Script', serif;
+    --paragraph-font: 'Sedan SC', serif;
+
+    --nav-background-color: #B3D89C;
+    --nav-link-color: #4D7298;
+    --nav-hover-link-color: #000000;
+    --nav-hover-background-color: #F8F8FF;
+}
+
+* {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px;
+}
+
+body {
+    padding: 60px;
+}
+
+.adventure {
+    width: 500px;
+}
+
+h1, h2 {
+    padding: 25px;
+    font-family: var(--heading-font);
+    font-size: 2em;
+    color: var(--primary-color);
+}
+
+p {
+    padding: 25px;
+    font-family: var(--paragraph-font);
+    font-size: 1.5em;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.white-water-warriors {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.white-water-warriors h1 {
+    font-size: 2.5em;
+    color: black;
+}
+
+.hero-content {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-content article {
+    display: flex;
+    align-items: center;
+}
+
+.hero-content article p {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.hero-content article img {
+    max-width: 100px;
+    float: right;
+}
+
+nav a {
+    display: inline-block;
+    margin-right: 25px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.sociallinks {
+    display: flex;
+}
+
+.sociallinks img {
+    width: 25px;
+    height: auto;
+    margin-right: 10px;
+}
+
+footer {
+    font-size: 1em;
+}
