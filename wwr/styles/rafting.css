@@ -22,16 +22,9 @@
     box-sizing: border-box;
 }
 
-header {
-    padding: 20px;
-}
-
 body {
     padding: 60px;
-}
-
-.adventure {
-    width: 500px;
+    margin: auto;
 }
 
 h1, h2 {
@@ -48,54 +41,55 @@ p {
 }
 
 .hero {
+    border: 1px solid #4D7298;
+    margin: 0px auto;
     position: relative;
+    padding: 0;
     width: 100%;
 }
 
 .hero img {
+    position: relative;
+    left: 0;
     display: block;
     width: 100%;
     height: auto;
 }
 
-.white-water-warriors {
+.hero h1 {
     position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 10px 20px;
-    border-radius: 10px;
+    top: 40px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+    font-size: 40px;
+    opacity: .65;
 }
 
-.white-water-warriors h1 {
-    font-size: 2.5em;
-    color: black;
+
+
+.history h2 {
+    text-align: center;
 }
 
-.hero-content {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, 0.5); 
-    padding: 20px;
-    border-radius: 10px;
+.history p {
+    width: 100%;
+    text-align: center;
+}
+.adventure {
+    text-align: center;
 }
 
-.hero-content article {
-    display: flex;
-    align-items: center;
+.adventure h2 {
+    margin-bottom: 20px;
 }
 
-.hero-content article p {
-    flex: 1;
-    margin-right: 20px;
-}
+.adventure img {
+    width: 275px;
+    height: auto;
+    margin: 10px;
 
-.hero-content article img {
-    max-width: 100px;
-    float: right;
 }
 
 nav a {
@@ -116,14 +110,16 @@ nav a:hover {
 
 .sociallinks {
     display: flex;
+    justify-content: center;
 }
 
 .sociallinks img {
-    width: 25px;
+    width: 20px;
     height: auto;
-    margin-right: 10px;
+    margin-right: 3px;
 }
 
 footer {
     font-size: 1em;
+    text-align: center;
 }
