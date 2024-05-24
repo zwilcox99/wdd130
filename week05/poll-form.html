@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WDD 130 | Zane Wilcox | HTML Form - User Poll</title>
+   <link rel="stylesheet" href="poll-form.css">
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Zane Wilcox | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">1. What is your favorite browser?</label>
+                <select id="browser" name="browser">
+                    <option value="blank">Select An Option</option>
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="safari">Safari</option>
+                    <option value="edge">Microsoft Edge</option>
+                    <option value="brave">Brave</option>
+                    <option value="other">Other</option>
+                </select>
+                <label for="pet">2. If you have a household pet, check the box.</label>
+                <input type="checkbox" id="pet" name="pet">
+                <label for="feedback">3. List the places you have lived:</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Ulaanbaatar Mongolia, Paris France, Billings Montana, Bangkok Thailand"></textarea>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; | HTML Form - User Poll Activity | Zane Wilcox</p>
+    </footer>
+</body>
+</html>
