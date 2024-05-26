@@ -32,14 +32,15 @@
                     <input type="text" id="name" name="name">
                 <label for="email">Email</label>
                     <input type="text" id="email" name="email">
-                <label for="purpose">Purpose of Inquiry</label>
-                    <select id="q3" name="q3">
-                        <option value="" selected disabled>Select an option</option>
-                        <option value="text-align">General Inquiry</option>
-                        <option value="margin">Reservation Question</option>
-                        <option value="justify">Website Suggestion</option>
-                    </select>
-                <label for="message">Message</label>
+                <label for="reason">Purpose of Inquiry</label>
+                    <br>
+                    <input type="radio" id="reason_general" name="reason" value="general"> General Inquiry
+                    <br>
+                    <input type="radio" id="reason_reservation" name="reason" value="reservation"> Reservation Question
+                    <br>
+                    <input type="radio" id="reason_website" name="reason" value="website"> Website Suggestion
+                    <br>
+                <label for="message"></label>
                     <textarea id="message" name="message" rows="4" placeholder="Type message here"></textarea>
             </fieldset>
             <button type="submit">Send Message</button>
@@ -47,14 +48,12 @@
     
         <form class="form2">
             <h2>White Water Warriors</h2>
-            <p>Email:<a href="mailto:">EMAIL HERE</a></p>
+            <p>Email: <a href="mailto:">warriors.rafting@gmail.com</a></p>
             <p>Phone: +976 98559565</p>
-            <p>Location: Address here</p>
+            <p>Location: Sukhbaatar City, Selenge Province, Mongolia</p>
 
             <div class="map">
-                <iframe>
-                src="<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d27028.46525282005!2d106.16341344051412!3d49.91086338050444!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smn!4v1716694648832!5m2!1sen!2smn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81685.95802972537!2d106.2099839!3d50.2230844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5da49de7d14384ef%3A0x423130fb66c5ed99!2sS%C3%BCkhbaatar%2C%20Selenge!5e0!3m2!1sen!2smn!4v1716706599591!5m2!1sen!2smn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
         </form>
     </div>
     </main>

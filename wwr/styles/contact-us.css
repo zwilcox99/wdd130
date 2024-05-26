@@ -61,7 +61,6 @@ body {
 
 h1 {
     text-align: center;
-    padding: 15px;
     font-family: var(--heading-font)
 }
 
@@ -79,6 +78,10 @@ p {
     font-size: 1rem;
 }
 
+.form1 h2 {
+    text-align: left;
+    font-family: var(--heading-font)
+}
 .form1 p {
     text-align: left;
     font-family: var(--paragraph-font);
@@ -90,14 +93,12 @@ p {
     width: 740px;
     margin: 0 auto;
     padding: 1rem;
-    border: 1px solid rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 1rem;
     background-color: #aee59390;
 }
 
 .form2 {
-    display: grid;
-    text-align: center;
     width: 400px;
     margin: 0 auto;
     padding: .5em;
@@ -106,10 +107,23 @@ p {
     background-color: #aee59390;
 }
 
+.form2 h2 {
+    margin-top: 40px;
+    text-align: center;
+    font-family: var(--heading-font)
+}
+
+.form2 p {
+    text-align: center;
+    margin: 25px;
+
+}
+
 fieldset {
     display: grid;
     grid-gap: 1rem;
     margin: 1rem;
+    border: 1px solid black;
     border-radius: 1rem;
     border: 1px solid black;
     padding: 1rem;
@@ -141,6 +155,11 @@ input, select, textarea {
     font-family: 'Cormorant Garamond', sans-serif;
     font-size: 1.1rem;
     font-weight: bold;
+    width: 400px;
+}
+
+input[type="radio"] {
+    width: 0 auto;
 }
 
 .sociallinks {
