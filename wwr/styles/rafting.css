@@ -25,10 +25,9 @@
 header {
     display: grid;
     grid-template-columns: auto 1fr;
-    align-items: center;
-    width: 100%;
+    margin: 0 auto;
+    max-width: 900px;
     padding: 1rem;
-    margin: 1rem;
 }
 
 header img {
