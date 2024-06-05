@@ -188,10 +188,12 @@ input[type="checkbox"] {
 }
 
 footer {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+    display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1em;
-    text-align: right;
+    font-size: 1.2em;
+    margin-top: 75px;
+    margin-bottom: 50px;
+
 }
+
