@@ -31,14 +31,11 @@
                     <input type="text" id="name" name="name">
                     <label for="email">Email</label>
                     <input type="text" id="email" name="email">
-                    <label for="reason">Purpose of Inquiry</label>
-                    <br>
-                    <input type="radio" id="reason_general" name="reason" value="general"> General Inquiry
-                    <br>
-                    <input type="radio" id="reason_reservation" name="reason" value="reservation"> Reservation Question
-                    <br>
-                    <input type="radio" id="reason_website" name="reason" value="website"> Website Suggestion
-                    <br>
+                    <p>Purpose of Inquiry</p>
+                    <input type="hidden" id="contactpurpose" name="contactpurpose">
+                    <input type="radio" id="reason_general" name="reason" value="general"> General Inquiry<br>
+                    <input type="radio" id="reason_reservation" name="reason" value="reservation"> Reservation Question<br>
+                    <input type="radio" id="reason_website" name="reason" value="website"> Website Suggestion<br>
                     <label for="message"></label>
                     <textarea id="message" name="message" rows="4" placeholder="Type message here"></textarea>
                 </fieldset>

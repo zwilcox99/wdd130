@@ -153,20 +153,17 @@ input, select, textarea {
     width: 500px;
 }
 
-input[type="radio"] {
-    width: 0 auto;
-}
-
 input[type="checkbox"] {
     width: auto;
     margin-left: 15px;
 }
 
 .footerform {
-    display: column;
+    display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
     margin: 0 auto;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
 }
 
 .checkbox-label {
