@@ -230,3 +230,8 @@ input {
     height: 35px;
     text-align: center;
 }
+
+.wireframe {
+    font-size: .5rem;
+    margin-top: 15px;
+}
